@@ -18,9 +18,13 @@ int main()
 	//num1 is first integer entered by user and num2 is second integer entered by user
 	int num1, num2;
 	
+	
+	//Prompts the user to enter the operation they would like to use
 	printf("Enter Operation you wish to use: ");
 	scanf("%c", &operator);
 	
+	
+	//Prompts the user to enter two numbers
 	printf("Enter two numbers: ");
 	scanf("%d %d", &num1, &num2);
 	
