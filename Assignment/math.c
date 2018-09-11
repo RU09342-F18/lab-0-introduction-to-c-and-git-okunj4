@@ -48,7 +48,7 @@ int main()
 			
 		//Case for modulus
 		case '%':
-			printf("Remainder = %d", num1, num2, num1 % num2);
+			printf("%.1d modulus %.1d = %.1d", num1, num2, num1 % num2);
 			break;
 			
 		//Case for Left Shift
