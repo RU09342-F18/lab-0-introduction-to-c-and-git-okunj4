@@ -2,8 +2,12 @@ Math.C Readme
 
 Math.C when compiled and ran is a basic calculator program.
 
+It utilizes the math.h library to perform the functions.
+
 It will prompt the user to enter a function of their choice, and then it will prompt the user to enter 2 numbers.
 When the user does this the program will return a value.
+
+The program uses a switch case for the math functions, and when the user chooses the operation it utilizes that case.
 
 For example if the user chooses addition and enters + and chooses the numbers 1 and 2,the program will return "1 + 2 = 3".
 
